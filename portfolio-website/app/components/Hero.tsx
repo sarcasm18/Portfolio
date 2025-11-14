@@ -69,10 +69,7 @@ export default function Hero() {
         </div>
       </section>
 
-      {/* Next section so you can continue scrolling after reveal */}
-      <section className="min-h-screen w-full bg-amber-600 flex items-center justify-center">
-        <p className="text-xl">Next section content — scroll continues here</p>
-      </section>
+     
     </>
   );
 }
