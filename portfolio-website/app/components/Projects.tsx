@@ -22,7 +22,7 @@ const projects: Project[] = [
     tools: 'UnrealEngine, QuixelBridge, FAB UE5, MetaHumans, Mixamo',
     description:
       'Third-person shooter with fun combat mechanics. Used Quixel Megascans for level design and MetaHumans for protagonist; textures made with Photoshop & Blender.',
-    link: '#',
+    link: 'https://github.com/sarcasm18/ThirdPersonShooter',
   },
   {
     title: 'HWASOO',
@@ -30,7 +30,7 @@ const projects: Project[] = [
     tools: 'UnrealEngine, FAB Library, MetaHumans',
     description:
       'Endless runner with gradually increasing difficulty. FAB used for level design; Blender for chase AI & textures.',
-    link: '#',
+    link: 'https://github.com/sarcasm18/TN-Escape',
   },
   {
     title: 'Barbaadi',
@@ -38,7 +38,7 @@ const projects: Project[] = [
     tools: 'UnrealEngine, QuixelBridge, Blender',
     description:
       'Rage-room sandbox where players destroy objects. Quixel Megascans for level design and Blender for assets & textures.',
-    link: '#',
+    link: 'https://github.com/sarcasm18/Rage-Room',
   },
   {
     title: 'Timebound',
@@ -54,7 +54,7 @@ const projects: Project[] = [
     tools: 'UnrealEngine, QuixelBridge, MetaHumans, Unity',
     description:
       'Adventure game with 2D graphics; used Unity for level design and Blender for protagonist/textures.',
-    link: '#',
+    link: 'https://github.com/sarcasm18/PlayableAD',
   },
 ];
 
@@ -139,6 +139,7 @@ export default function Projects() {
               <footer className="mt-6 flex items-center justify-between">
                 <a
                   href={project.link}
+                  target='_blank'
                   className="text-sm font-medium inline-flex items-center gap-2 text-purple-600 hover:underline"
                 >
                   View repo
