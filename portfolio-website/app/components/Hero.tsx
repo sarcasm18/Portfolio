@@ -16,7 +16,7 @@ export default function Hero() {
           scrollTrigger: {
             trigger: main.current,
             start: 'top top',
-            end: '+=400%',   // longer pin so movement is slow
+            end: '+=300%',   // longer pin so movement is slow
             scrub: 0.6,
             pin: true,
             pinSpacing: true,
